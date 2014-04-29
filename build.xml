@@ -28,7 +28,7 @@
 		sdkConfig="air"
 		sdkPath="${flexsdk.home}"
 		output="${deploy.dir}/${ant.project.name}.swc">
-		<arg line="-external-library-path+=${lib.root}\starling\starling.swc"/>
+		<arg line="-external-library-path+=${starling.home}/starling/bin/starling.swc"/>
 	</compc>
 
 </target>
