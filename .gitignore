@@ -7,6 +7,7 @@ bin/
 .settings/
 .flexProperties
 .FlexUnitSettings
+*.properties
 
 # OS X folders
 .DS_Store
